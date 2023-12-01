@@ -1,0 +1,50 @@
+/* Reset some default styles for browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set your background colors */
+body {
+    background-color: lightblue;
+}
+
+header {
+    background-image: url('your_logo.png'); /* Replace with your logo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: pink;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Style other sections and elements as needed */
+.hero {
+    /* Hero section styles */
+}
+
+/* Add more styles for the remaining pages */
+
+footer {
+    background-color: pink;
+    /* Footer styles */
+}

@@ -1,0 +1,7 @@
+#myfile.txt
+https://www.cbc.ca
+https://www.bbc.com/news/world BBC World News
+https://www.westjet.com/en-ca Westjet
+https://weather.gc.ca/city/pages/ab-52_metric_e.html Calgary Weather
+https://forecast.weather.gov/MapClick.php?lat=33.7289&lon=-116.3787#.ZEAv8nbMKUk Palm Desert Weather
+

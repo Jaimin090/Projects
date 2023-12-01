@@ -1,0 +1,11 @@
+print ('count method')
+print ('123123123'.count('2'))
+print ('find method')
+city = 'New York, New York'
+print (city.find('New', 1))
+print ('startswith method')
+print (city.startswith('New'))
+print ('endswith method')
+print (city.endswith('ork', 5, 8))
+print ('replace method')
+print ('123123123'.replace('2', 'two'))

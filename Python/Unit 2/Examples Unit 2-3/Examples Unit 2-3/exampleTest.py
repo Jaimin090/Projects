@@ -1,0 +1,12 @@
+# put in a file and run
+print ("12345678901234")
+print (format (123456.6789, ",.2f"))
+print (format (123456.6789, "14.2f"))
+print (format (123456.6789, "-14.2f"))
+print (format (123456.6789, ".2e"))
+print (format (0.5, "%"))
+print (format (0.5, ".2%"))
+print (format (123, "d"))
+print (format (123, "7d"))
+print (format (123, "7d"))
+print (format ("Hello", "10s"))
