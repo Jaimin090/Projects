@@ -6,25 +6,27 @@ class Appointment:
     
     # constructor for the Appointment class
     def __init__(self, day_of_week, start_time_hour):
-        pass
+        self.__day_of_week = day_of_week
+        self.__start_time_hour = start_time_hour
+        # getter and setters for the attributes of an Appointment object
 
     def get_client_name(self):
-        pass
+        return self.__client_name
 
     def set_client_name(self, client_name):
-        pass
+        self.__client_name = client_name
 
     def get_client_phone(self):
-        pass
+        return self.__client_phone
     
     def set_client_phone(self, client_phone):
-        pass
+        self.__client_phone = client_phone
 
     def get_appt_type(self):
-        pass
+        return self._appt_type
     
     def set_appt_type(self, appt_type):
-        pass
+        self._appt_type = appt_type
 
     def get_day_of_week(self):
         pass
@@ -45,7 +47,7 @@ class Appointment:
         pass
     
     def format_record(self):
-       pass
+        pass
     
     def __str__(self):
         return ''
