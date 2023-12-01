@@ -17,7 +17,7 @@ class Appointment:
         self.__client_name = client_name
 
     def get_client_phone(self):
-        return self.__client_phone
+         return self.__client_phone   # ssc
     
     def set_client_phone(self, client_phone):
         self.__client_phone = client_phone
