@@ -13,4 +13,10 @@ import json
 # open the data file and load the JSON
 with open("../../30DayQuakes.json", "r") as datafile:
     data = json.load(datafile)
-    
+def isaQuake(q):
+    return q["properties"]["type"] == "earthquake"
+# filter out non-earthquake entries from the data
+quakes = list(filter(isaQuake, data["features"]))
+# part 1: how many total quakes?
+total_quakes = len(quakes)
+print(f"\nTotal number of Earthquakes: {total_quakes}\n")
